@@ -1,0 +1,26 @@
+{
+  "name": "package_manager",
+  "version": "1.0.0",
+  "description": "demo, npm, test",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "test": "./node_modules/.bin/mocha"
+  },
+  "keywords": [
+    "demo",
+    "npm",
+    "test"
+  ],
+  "author": "Mauricio Ramirez",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "log4js": "^6.9.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.48.0",
+    "mocha": "^10.2.0"
+  }
+}
